@@ -24,9 +24,9 @@
 #import <Foundation/Foundation.h>
 
 #import "SocketIOTransport.h"
+#import "SocketIOPacket.h"
 
 @class SocketIO;
-@class SocketIOPacket;
 
 typedef void(^SocketIOCallback)(id argsData);
 
